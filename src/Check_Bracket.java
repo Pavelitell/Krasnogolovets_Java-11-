@@ -10,7 +10,7 @@ public class Check_Bracket {                          // Код только н�
             String one_symbol = str.substring(i, i + 1);
             if (one_symbol.equals("(")) {
                 check_bracket++;
-            } else {  //иначе
+            } else {  
                 check_bracket--;
             }
         }
