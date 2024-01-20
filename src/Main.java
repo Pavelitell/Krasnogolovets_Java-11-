@@ -13,9 +13,7 @@ public class Main {
             System.out.println("Введите число: ");
             userChoice = myScanner.nextInt();
             myScanner.nextLine();
-            if (userChoice <= Number) {
-                System.out.println();
-            }
+
         } while (userChoice <= Number);
 
         System.out.println("Привет");
